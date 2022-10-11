@@ -1,0 +1,28 @@
+MONGODB
+
+-> sudo systemctl start mongod
+-> sudo systemctl status mongod   (pour verifier si bien lancee)
+
+NEST
+
+-> npm run start
+-> sur localhost:3000
+-> fuser -k 3000/tcp (fermer port)
+
+-> npm i --save class-validator class-transformer
+-> npm install @nestjs/passport passport passport-jwt
+-> npm install --save-dev @types/passport-jwt
+-> npm i bcrypt
+-> npm i -D @types/bcrypt
+-> npm install @nestjs/jwt
+
+
+Vue
+
+->npm run serve
+-> localhost:8080
+-> fuser -k 8080/tcp (fermer port)
+
+
+
+
